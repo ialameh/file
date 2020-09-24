@@ -2274,48 +2274,7 @@
                     <table:table-cell table:style-name="ce2" table:number-columns-repeated="2"/>
                     <table:table-cell table:number-columns-repeated="998"/>
                 </table:table-row>
-                <table:table-row table:style-name="ro12">
-                    <table:table-cell table:style-name="ce186" office:value-type="string" table:number-columns-spanned="4" table:number-rows-spanned="1">
-                        <text:p>${index+1} ${Model.Debts.subMastersofpMap, index, DebtsDetailsModel.DEBTFRIENDLYNAME}, <text:s/>
-                        </text:p>
-                        <text:p>
-                            <text:s text:c="24"/>
-                        </text:p>
-                        <text:p>and owed to: <text:s/>
-                        </text:p>
-                        <text:p>${Model.Debts.subMastersofpMap, index, DebtsDetailsModel.OWEDTO}</text:p>
-                    </table:table-cell>
-                    <table:covered-table-cell table:number-columns-repeated="3"/>
-                    <table:table-cell table:style-name="Default" table:number-columns-repeated="1020"/>
-                </table:table-row>
-                <table:table-row table:style-name="ro12">
-                    <table:table-cell table:style-name="ce186" office:value-type="string" table:number-columns-spanned="4" table:number-rows-spanned="1">
-                        <text:p>${index+1} ${Model.Debts.subMastersofpMap, index, DebtsDetailsModel.DEBTFRIENDLYNAME}, <text:s/>
-                        </text:p>
-                        <text:p>
-                            <text:s text:c="24"/>
-                        </text:p>
-                        <text:p>and owed to: <text:s/>
-                        </text:p>
-                        <text:p>${Model.Debts.subMastersofpMap, index, DebtsDetailsModel.OWEDTO}</text:p>
-                    </table:table-cell>
-                    <table:covered-table-cell table:number-columns-repeated="3"/>
-                    <table:table-cell table:style-name="Default" table:number-columns-repeated="1020"/>
-                </table:table-row>
-                <table:table-row table:style-name="ro12">
-                    <table:table-cell table:style-name="ce186" office:value-type="string" table:number-columns-spanned="4" table:number-rows-spanned="1">
-                        <text:p>${index+1} ${Model.Debts.subMastersofpMap, index, DebtsDetailsModel.DEBTFRIENDLYNAME}, <text:s/>
-                        </text:p>
-                        <text:p>
-                            <text:s text:c="24"/>
-                        </text:p>
-                        <text:p>and owed to: <text:s/>
-                        </text:p>
-                        <text:p>${Model.Debts.subMastersofpMap, index, DebtsDetailsModel.OWEDTO}</text:p>
-                    </table:table-cell>
-                    <table:covered-table-cell table:number-columns-repeated="3"/>
-                    <table:table-cell table:style-name="Default" table:number-columns-repeated="1020"/>
-                </table:table-row>
+                <!-- START DEBT -->
                 <table:table-row table:style-name="ro12">
                     <table:table-cell table:style-name="ce186" office:value-type="string" table:number-columns-spanned="4" table:number-rows-spanned="1">
                         <text:p>${index+1} ${Model.Debts.subMastersofpMap, index, DebtsDetailsModel.DEBTFRIENDLYNAME}, <text:s/>
@@ -2474,6 +2433,647 @@
                     <table:table-cell table:style-name="ce2" table:number-columns-repeated="2"/>
                     <table:table-cell table:number-columns-repeated="998"/>
                 </table:table-row>
+                <!-- END DEBT-->
+                <!-- START DEBT -->
+                <table:table-row table:style-name="ro12">
+                    <table:table-cell table:style-name="ce186" office:value-type="string" table:number-columns-spanned="4" table:number-rows-spanned="1">
+                        <text:p>${index+1} ${Model.Debts.subMastersofpMap, index, DebtsDetailsModel.DEBTFRIENDLYNAME}, <text:s/>
+                        </text:p>
+                        <text:p>
+                            <text:s text:c="24"/>
+                        </text:p>
+                        <text:p>and owed to: <text:s/>
+                        </text:p>
+                        <text:p>${Model.Debts.subMastersofpMap, index, DebtsDetailsModel.OWEDTO}</text:p>
+                    </table:table-cell>
+                    <table:covered-table-cell table:number-columns-repeated="3"/>
+                    <table:table-cell table:style-name="Default" table:number-columns-repeated="1020"/>
+                </table:table-row>
+                <table:table-row table:style-name="ro12">
+                    <table:table-cell table:style-name="ce187" office:value-type="string" table:number-columns-spanned="2" table:number-rows-spanned="11">
+                        <text:p>Circumstances:</text:p>
+                    </table:table-cell>
+                    <table:covered-table-cell/>
+                    <table:table-cell table:style-name="ce201" office:value-type="string">
+                        <text:p>Debt Type</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce201" office:value-type="string">
+                        <text:p>${Model.Debts.subMastersofpMap, index, DebtsDetailsModel.DEBTTYPE}</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce205" table:number-columns-repeated="20"/>
+                    <table:table-cell table:style-name="ce2" table:number-columns-repeated="2"/>
+                    <table:table-cell table:number-columns-repeated="998"/>
+                </table:table-row>
+                <table:table-row table:style-name="ro12">
+                    <table:covered-table-cell table:number-columns-repeated="2"/>
+                    <table:table-cell table:style-name="ce201" office:value-type="string">
+                        <text:p>Initial Balance</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce201" office:value-type="string">
+                        <text:p>${Model.Debts.subMastersofpMap, index, DebtsDetailsModel.INITIALBALANCE}</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce205" table:number-columns-repeated="20"/>
+                    <table:table-cell table:style-name="ce2" table:number-columns-repeated="2"/>
+                    <table:table-cell table:number-columns-repeated="998"/>
+                </table:table-row>
+                <table:table-row table:style-name="ro12">
+                    <table:covered-table-cell table:number-columns-repeated="2"/>
+                    <table:table-cell table:style-name="ce201" office:value-type="string">
+                        <text:p>Minimum Payment</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce201" office:value-type="string">
+                        <text:p>${Model.Debts.subMastersofpMap, index, DebtsDetailsModel.MINIMUMPAYMENT}</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce205" table:number-columns-repeated="20"/>
+                    <table:table-cell table:style-name="ce2" table:number-columns-repeated="2"/>
+                    <table:table-cell table:number-columns-repeated="998"/>
+                </table:table-row>
+                <table:table-row table:style-name="ro12">
+                    <table:covered-table-cell table:number-columns-repeated="2"/>
+                    <table:table-cell table:style-name="ce201" office:value-type="string">
+                        <text:p>Current Payment</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce201" office:value-type="string">
+                        <text:p>${Model.Debts.subMastersofpMap, index, DebtsDetailsModel.AGREEDPAYMENTAMOUNT}</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce205" table:number-columns-repeated="20"/>
+                    <table:table-cell table:style-name="ce2" table:number-columns-repeated="2"/>
+                    <table:table-cell table:number-columns-repeated="998"/>
+                </table:table-row>
+                <table:table-row table:style-name="ro12">
+                    <table:covered-table-cell table:number-columns-repeated="2"/>
+                    <table:table-cell table:style-name="ce202" office:value-type="string">
+                        <text:p>Interest Rate</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce201" office:value-type="string">
+                        <text:p>${Model.Debts.subMastersofpMap, index, DebtsDetailsModel.INTERESTRATE}</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce205" table:number-columns-repeated="20"/>
+                    <table:table-cell table:style-name="ce2" table:number-columns-repeated="2"/>
+                    <table:table-cell table:number-columns-repeated="998"/>
+                </table:table-row>
+                <table:table-row table:style-name="ro12">
+                    <table:covered-table-cell table:number-columns-repeated="2"/>
+                    <table:table-cell table:style-name="ce202" office:value-type="string">
+                        <text:p>Current Frequency</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce202" office:value-type="string">
+                        <text:p>{currentfrequency}</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce205" table:number-columns-repeated="20"/>
+                    <table:table-cell table:style-name="ce2" table:number-columns-repeated="2"/>
+                    <table:table-cell table:number-columns-repeated="998"/>
+                </table:table-row>
+                <table:table-row table:style-name="ro12">
+                    <table:covered-table-cell table:number-columns-repeated="2"/>
+                    <table:table-cell table:style-name="ce202" office:value-type="string">
+                        <text:p>Contract Date</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce202" office:value-type="string">
+                        <text:p>${Model.Debts.subMastersofpMap, index, DebtsDetailsModel.STARTINGDATE}</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce205" table:number-columns-repeated="20"/>
+                    <table:table-cell table:style-name="ce2" table:number-columns-repeated="2"/>
+                    <table:table-cell table:number-columns-repeated="998"/>
+                </table:table-row>
+                <table:table-row table:style-name="ro12">
+                    <table:covered-table-cell table:number-columns-repeated="2"/>
+                    <table:table-cell table:style-name="ce202" office:value-type="string">
+                        <text:p>Last Payment Date</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce202" office:value-type="string">
+                        <text:p>${Model.Debts.subMastersofpMap, index, DebtsDetailsModel.LASTPAYMENTDATE}</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce205" table:number-columns-repeated="20"/>
+                    <table:table-cell table:style-name="ce2" table:number-columns-repeated="2"/>
+                    <table:table-cell table:number-columns-repeated="998"/>
+                </table:table-row>
+                <table:table-row table:style-name="ro12">
+                    <table:covered-table-cell table:number-columns-repeated="2"/>
+                    <table:table-cell table:style-name="ce202" office:value-type="string">
+                        <text:p>Current Balance</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce202" office:value-type="string">
+                        <text:p>${Model.Debts.subMastersofpMap, index, DebtsDetailsModel.CURRENTBALANCE}</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce205" table:number-columns-repeated="20"/>
+                    <table:table-cell table:style-name="ce2" table:number-columns-repeated="2"/>
+                    <table:table-cell table:number-columns-repeated="998"/>
+                </table:table-row>
+                <table:table-row table:style-name="ro12">
+                    <table:covered-table-cell table:number-columns-repeated="2"/>
+                    <table:table-cell table:style-name="ce202" office:value-type="string">
+                        <text:p>Payment Frequency</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce202" office:value-type="string">
+                        <text:p>Fortnightly</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce205" table:number-columns-repeated="20"/>
+                    <table:table-cell table:style-name="ce2" table:number-columns-repeated="2"/>
+                    <table:table-cell table:number-columns-repeated="998"/>
+                </table:table-row>
+                <table:table-row table:style-name="ro12">
+                    <table:covered-table-cell table:number-columns-repeated="2"/>
+                    <table:table-cell table:style-name="ce201" office:value-type="string">
+                        <text:p>Flags</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce201" office:value-type="string">
+                        <text:p>FV, GP</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce205" table:number-columns-repeated="20"/>
+                    <table:table-cell table:style-name="ce2" table:number-columns-repeated="2"/>
+                    <table:table-cell table:number-columns-repeated="998"/>
+                </table:table-row>
+                <table:table-row table:style-name="ro12">
+                    <table:table-cell table:style-name="ce188" office:value-type="string" table:number-columns-spanned="4" table:number-rows-spanned="1">
+                        <text:p>Proposal: Make normal repayments and get help with missed repayments</text:p>
+                    </table:table-cell>
+                    <table:covered-table-cell table:number-columns-repeated="3"/>
+                    <table:table-cell table:style-name="ce205" table:number-columns-repeated="20"/>
+                    <table:table-cell table:style-name="ce2" table:number-columns-repeated="2"/>
+                    <table:table-cell table:number-columns-repeated="998"/>
+                </table:table-row>
+                <!-- END DEBT-->
+                <!-- START DEBT -->
+                <table:table-row table:style-name="ro12">
+                    <table:table-cell table:style-name="ce186" office:value-type="string" table:number-columns-spanned="4" table:number-rows-spanned="1">
+                        <text:p>${index+1} ${Model.Debts.subMastersofpMap, index, DebtsDetailsModel.DEBTFRIENDLYNAME}, <text:s/>
+                        </text:p>
+                        <text:p>
+                            <text:s text:c="24"/>
+                        </text:p>
+                        <text:p>and owed to: <text:s/>
+                        </text:p>
+                        <text:p>${Model.Debts.subMastersofpMap, index, DebtsDetailsModel.OWEDTO}</text:p>
+                    </table:table-cell>
+                    <table:covered-table-cell table:number-columns-repeated="3"/>
+                    <table:table-cell table:style-name="Default" table:number-columns-repeated="1020"/>
+                </table:table-row>
+                <table:table-row table:style-name="ro12">
+                    <table:table-cell table:style-name="ce187" office:value-type="string" table:number-columns-spanned="2" table:number-rows-spanned="11">
+                        <text:p>Circumstances:</text:p>
+                    </table:table-cell>
+                    <table:covered-table-cell/>
+                    <table:table-cell table:style-name="ce201" office:value-type="string">
+                        <text:p>Debt Type</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce201" office:value-type="string">
+                        <text:p>${Model.Debts.subMastersofpMap, index, DebtsDetailsModel.DEBTTYPE}</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce205" table:number-columns-repeated="20"/>
+                    <table:table-cell table:style-name="ce2" table:number-columns-repeated="2"/>
+                    <table:table-cell table:number-columns-repeated="998"/>
+                </table:table-row>
+                <table:table-row table:style-name="ro12">
+                    <table:covered-table-cell table:number-columns-repeated="2"/>
+                    <table:table-cell table:style-name="ce201" office:value-type="string">
+                        <text:p>Initial Balance</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce201" office:value-type="string">
+                        <text:p>${Model.Debts.subMastersofpMap, index, DebtsDetailsModel.INITIALBALANCE}</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce205" table:number-columns-repeated="20"/>
+                    <table:table-cell table:style-name="ce2" table:number-columns-repeated="2"/>
+                    <table:table-cell table:number-columns-repeated="998"/>
+                </table:table-row>
+                <table:table-row table:style-name="ro12">
+                    <table:covered-table-cell table:number-columns-repeated="2"/>
+                    <table:table-cell table:style-name="ce201" office:value-type="string">
+                        <text:p>Minimum Payment</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce201" office:value-type="string">
+                        <text:p>${Model.Debts.subMastersofpMap, index, DebtsDetailsModel.MINIMUMPAYMENT}</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce205" table:number-columns-repeated="20"/>
+                    <table:table-cell table:style-name="ce2" table:number-columns-repeated="2"/>
+                    <table:table-cell table:number-columns-repeated="998"/>
+                </table:table-row>
+                <table:table-row table:style-name="ro12">
+                    <table:covered-table-cell table:number-columns-repeated="2"/>
+                    <table:table-cell table:style-name="ce201" office:value-type="string">
+                        <text:p>Current Payment</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce201" office:value-type="string">
+                        <text:p>${Model.Debts.subMastersofpMap, index, DebtsDetailsModel.AGREEDPAYMENTAMOUNT}</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce205" table:number-columns-repeated="20"/>
+                    <table:table-cell table:style-name="ce2" table:number-columns-repeated="2"/>
+                    <table:table-cell table:number-columns-repeated="998"/>
+                </table:table-row>
+                <table:table-row table:style-name="ro12">
+                    <table:covered-table-cell table:number-columns-repeated="2"/>
+                    <table:table-cell table:style-name="ce202" office:value-type="string">
+                        <text:p>Interest Rate</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce201" office:value-type="string">
+                        <text:p>${Model.Debts.subMastersofpMap, index, DebtsDetailsModel.INTERESTRATE}</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce205" table:number-columns-repeated="20"/>
+                    <table:table-cell table:style-name="ce2" table:number-columns-repeated="2"/>
+                    <table:table-cell table:number-columns-repeated="998"/>
+                </table:table-row>
+                <table:table-row table:style-name="ro12">
+                    <table:covered-table-cell table:number-columns-repeated="2"/>
+                    <table:table-cell table:style-name="ce202" office:value-type="string">
+                        <text:p>Current Frequency</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce202" office:value-type="string">
+                        <text:p>{currentfrequency}</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce205" table:number-columns-repeated="20"/>
+                    <table:table-cell table:style-name="ce2" table:number-columns-repeated="2"/>
+                    <table:table-cell table:number-columns-repeated="998"/>
+                </table:table-row>
+                <table:table-row table:style-name="ro12">
+                    <table:covered-table-cell table:number-columns-repeated="2"/>
+                    <table:table-cell table:style-name="ce202" office:value-type="string">
+                        <text:p>Contract Date</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce202" office:value-type="string">
+                        <text:p>${Model.Debts.subMastersofpMap, index, DebtsDetailsModel.STARTINGDATE}</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce205" table:number-columns-repeated="20"/>
+                    <table:table-cell table:style-name="ce2" table:number-columns-repeated="2"/>
+                    <table:table-cell table:number-columns-repeated="998"/>
+                </table:table-row>
+                <table:table-row table:style-name="ro12">
+                    <table:covered-table-cell table:number-columns-repeated="2"/>
+                    <table:table-cell table:style-name="ce202" office:value-type="string">
+                        <text:p>Last Payment Date</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce202" office:value-type="string">
+                        <text:p>${Model.Debts.subMastersofpMap, index, DebtsDetailsModel.LASTPAYMENTDATE}</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce205" table:number-columns-repeated="20"/>
+                    <table:table-cell table:style-name="ce2" table:number-columns-repeated="2"/>
+                    <table:table-cell table:number-columns-repeated="998"/>
+                </table:table-row>
+                <table:table-row table:style-name="ro12">
+                    <table:covered-table-cell table:number-columns-repeated="2"/>
+                    <table:table-cell table:style-name="ce202" office:value-type="string">
+                        <text:p>Current Balance</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce202" office:value-type="string">
+                        <text:p>${Model.Debts.subMastersofpMap, index, DebtsDetailsModel.CURRENTBALANCE}</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce205" table:number-columns-repeated="20"/>
+                    <table:table-cell table:style-name="ce2" table:number-columns-repeated="2"/>
+                    <table:table-cell table:number-columns-repeated="998"/>
+                </table:table-row>
+                <table:table-row table:style-name="ro12">
+                    <table:covered-table-cell table:number-columns-repeated="2"/>
+                    <table:table-cell table:style-name="ce202" office:value-type="string">
+                        <text:p>Payment Frequency</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce202" office:value-type="string">
+                        <text:p>Fortnightly</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce205" table:number-columns-repeated="20"/>
+                    <table:table-cell table:style-name="ce2" table:number-columns-repeated="2"/>
+                    <table:table-cell table:number-columns-repeated="998"/>
+                </table:table-row>
+                <table:table-row table:style-name="ro12">
+                    <table:covered-table-cell table:number-columns-repeated="2"/>
+                    <table:table-cell table:style-name="ce201" office:value-type="string">
+                        <text:p>Flags</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce201" office:value-type="string">
+                        <text:p>FV, GP</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce205" table:number-columns-repeated="20"/>
+                    <table:table-cell table:style-name="ce2" table:number-columns-repeated="2"/>
+                    <table:table-cell table:number-columns-repeated="998"/>
+                </table:table-row>
+                <table:table-row table:style-name="ro12">
+                    <table:table-cell table:style-name="ce188" office:value-type="string" table:number-columns-spanned="4" table:number-rows-spanned="1">
+                        <text:p>Proposal: Make normal repayments and get help with missed repayments</text:p>
+                    </table:table-cell>
+                    <table:covered-table-cell table:number-columns-repeated="3"/>
+                    <table:table-cell table:style-name="ce205" table:number-columns-repeated="20"/>
+                    <table:table-cell table:style-name="ce2" table:number-columns-repeated="2"/>
+                    <table:table-cell table:number-columns-repeated="998"/>
+                </table:table-row>
+                <!-- END DEBT-->
+                <!-- START DEBT -->
+                <table:table-row table:style-name="ro12">
+                    <table:table-cell table:style-name="ce186" office:value-type="string" table:number-columns-spanned="4" table:number-rows-spanned="1">
+                        <text:p>${index+1} ${Model.Debts.subMastersofpMap, index, DebtsDetailsModel.DEBTFRIENDLYNAME}, <text:s/>
+                        </text:p>
+                        <text:p>
+                            <text:s text:c="24"/>
+                        </text:p>
+                        <text:p>and owed to: <text:s/>
+                        </text:p>
+                        <text:p>${Model.Debts.subMastersofpMap, index, DebtsDetailsModel.OWEDTO}</text:p>
+                    </table:table-cell>
+                    <table:covered-table-cell table:number-columns-repeated="3"/>
+                    <table:table-cell table:style-name="Default" table:number-columns-repeated="1020"/>
+                </table:table-row>
+                <table:table-row table:style-name="ro12">
+                    <table:table-cell table:style-name="ce187" office:value-type="string" table:number-columns-spanned="2" table:number-rows-spanned="11">
+                        <text:p>Circumstances:</text:p>
+                    </table:table-cell>
+                    <table:covered-table-cell/>
+                    <table:table-cell table:style-name="ce201" office:value-type="string">
+                        <text:p>Debt Type</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce201" office:value-type="string">
+                        <text:p>${Model.Debts.subMastersofpMap, index, DebtsDetailsModel.DEBTTYPE}</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce205" table:number-columns-repeated="20"/>
+                    <table:table-cell table:style-name="ce2" table:number-columns-repeated="2"/>
+                    <table:table-cell table:number-columns-repeated="998"/>
+                </table:table-row>
+                <table:table-row table:style-name="ro12">
+                    <table:covered-table-cell table:number-columns-repeated="2"/>
+                    <table:table-cell table:style-name="ce201" office:value-type="string">
+                        <text:p>Initial Balance</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce201" office:value-type="string">
+                        <text:p>${Model.Debts.subMastersofpMap, index, DebtsDetailsModel.INITIALBALANCE}</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce205" table:number-columns-repeated="20"/>
+                    <table:table-cell table:style-name="ce2" table:number-columns-repeated="2"/>
+                    <table:table-cell table:number-columns-repeated="998"/>
+                </table:table-row>
+                <table:table-row table:style-name="ro12">
+                    <table:covered-table-cell table:number-columns-repeated="2"/>
+                    <table:table-cell table:style-name="ce201" office:value-type="string">
+                        <text:p>Minimum Payment</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce201" office:value-type="string">
+                        <text:p>${Model.Debts.subMastersofpMap, index, DebtsDetailsModel.MINIMUMPAYMENT}</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce205" table:number-columns-repeated="20"/>
+                    <table:table-cell table:style-name="ce2" table:number-columns-repeated="2"/>
+                    <table:table-cell table:number-columns-repeated="998"/>
+                </table:table-row>
+                <table:table-row table:style-name="ro12">
+                    <table:covered-table-cell table:number-columns-repeated="2"/>
+                    <table:table-cell table:style-name="ce201" office:value-type="string">
+                        <text:p>Current Payment</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce201" office:value-type="string">
+                        <text:p>${Model.Debts.subMastersofpMap, index, DebtsDetailsModel.AGREEDPAYMENTAMOUNT}</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce205" table:number-columns-repeated="20"/>
+                    <table:table-cell table:style-name="ce2" table:number-columns-repeated="2"/>
+                    <table:table-cell table:number-columns-repeated="998"/>
+                </table:table-row>
+                <table:table-row table:style-name="ro12">
+                    <table:covered-table-cell table:number-columns-repeated="2"/>
+                    <table:table-cell table:style-name="ce202" office:value-type="string">
+                        <text:p>Interest Rate</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce201" office:value-type="string">
+                        <text:p>${Model.Debts.subMastersofpMap, index, DebtsDetailsModel.INTERESTRATE}</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce205" table:number-columns-repeated="20"/>
+                    <table:table-cell table:style-name="ce2" table:number-columns-repeated="2"/>
+                    <table:table-cell table:number-columns-repeated="998"/>
+                </table:table-row>
+                <table:table-row table:style-name="ro12">
+                    <table:covered-table-cell table:number-columns-repeated="2"/>
+                    <table:table-cell table:style-name="ce202" office:value-type="string">
+                        <text:p>Current Frequency</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce202" office:value-type="string">
+                        <text:p>{currentfrequency}</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce205" table:number-columns-repeated="20"/>
+                    <table:table-cell table:style-name="ce2" table:number-columns-repeated="2"/>
+                    <table:table-cell table:number-columns-repeated="998"/>
+                </table:table-row>
+                <table:table-row table:style-name="ro12">
+                    <table:covered-table-cell table:number-columns-repeated="2"/>
+                    <table:table-cell table:style-name="ce202" office:value-type="string">
+                        <text:p>Contract Date</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce202" office:value-type="string">
+                        <text:p>${Model.Debts.subMastersofpMap, index, DebtsDetailsModel.STARTINGDATE}</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce205" table:number-columns-repeated="20"/>
+                    <table:table-cell table:style-name="ce2" table:number-columns-repeated="2"/>
+                    <table:table-cell table:number-columns-repeated="998"/>
+                </table:table-row>
+                <table:table-row table:style-name="ro12">
+                    <table:covered-table-cell table:number-columns-repeated="2"/>
+                    <table:table-cell table:style-name="ce202" office:value-type="string">
+                        <text:p>Last Payment Date</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce202" office:value-type="string">
+                        <text:p>${Model.Debts.subMastersofpMap, index, DebtsDetailsModel.LASTPAYMENTDATE}</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce205" table:number-columns-repeated="20"/>
+                    <table:table-cell table:style-name="ce2" table:number-columns-repeated="2"/>
+                    <table:table-cell table:number-columns-repeated="998"/>
+                </table:table-row>
+                <table:table-row table:style-name="ro12">
+                    <table:covered-table-cell table:number-columns-repeated="2"/>
+                    <table:table-cell table:style-name="ce202" office:value-type="string">
+                        <text:p>Current Balance</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce202" office:value-type="string">
+                        <text:p>${Model.Debts.subMastersofpMap, index, DebtsDetailsModel.CURRENTBALANCE}</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce205" table:number-columns-repeated="20"/>
+                    <table:table-cell table:style-name="ce2" table:number-columns-repeated="2"/>
+                    <table:table-cell table:number-columns-repeated="998"/>
+                </table:table-row>
+                <table:table-row table:style-name="ro12">
+                    <table:covered-table-cell table:number-columns-repeated="2"/>
+                    <table:table-cell table:style-name="ce202" office:value-type="string">
+                        <text:p>Payment Frequency</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce202" office:value-type="string">
+                        <text:p>Fortnightly</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce205" table:number-columns-repeated="20"/>
+                    <table:table-cell table:style-name="ce2" table:number-columns-repeated="2"/>
+                    <table:table-cell table:number-columns-repeated="998"/>
+                </table:table-row>
+                <table:table-row table:style-name="ro12">
+                    <table:covered-table-cell table:number-columns-repeated="2"/>
+                    <table:table-cell table:style-name="ce201" office:value-type="string">
+                        <text:p>Flags</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce201" office:value-type="string">
+                        <text:p>FV, GP</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce205" table:number-columns-repeated="20"/>
+                    <table:table-cell table:style-name="ce2" table:number-columns-repeated="2"/>
+                    <table:table-cell table:number-columns-repeated="998"/>
+                </table:table-row>
+                <table:table-row table:style-name="ro12">
+                    <table:table-cell table:style-name="ce188" office:value-type="string" table:number-columns-spanned="4" table:number-rows-spanned="1">
+                        <text:p>Proposal: Make normal repayments and get help with missed repayments</text:p>
+                    </table:table-cell>
+                    <table:covered-table-cell table:number-columns-repeated="3"/>
+                    <table:table-cell table:style-name="ce205" table:number-columns-repeated="20"/>
+                    <table:table-cell table:style-name="ce2" table:number-columns-repeated="2"/>
+                    <table:table-cell table:number-columns-repeated="998"/>
+                </table:table-row>
+                <!-- END DEBT-->
+                <!-- START DEBT -->
+                <table:table-row table:style-name="ro12">
+                    <table:table-cell table:style-name="ce186" office:value-type="string" table:number-columns-spanned="4" table:number-rows-spanned="1">
+                        <text:p>${index+1} ${Model.Debts.subMastersofpMap, index, DebtsDetailsModel.DEBTFRIENDLYNAME}, <text:s/>
+                        </text:p>
+                        <text:p>
+                            <text:s text:c="24"/>
+                        </text:p>
+                        <text:p>and owed to: <text:s/>
+                        </text:p>
+                        <text:p>${Model.Debts.subMastersofpMap, index, DebtsDetailsModel.OWEDTO}</text:p>
+                    </table:table-cell>
+                    <table:covered-table-cell table:number-columns-repeated="3"/>
+                    <table:table-cell table:style-name="Default" table:number-columns-repeated="1020"/>
+                </table:table-row>
+                <table:table-row table:style-name="ro12">
+                    <table:table-cell table:style-name="ce187" office:value-type="string" table:number-columns-spanned="2" table:number-rows-spanned="11">
+                        <text:p>Circumstances:</text:p>
+                    </table:table-cell>
+                    <table:covered-table-cell/>
+                    <table:table-cell table:style-name="ce201" office:value-type="string">
+                        <text:p>Debt Type</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce201" office:value-type="string">
+                        <text:p>${Model.Debts.subMastersofpMap, index, DebtsDetailsModel.DEBTTYPE}</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce205" table:number-columns-repeated="20"/>
+                    <table:table-cell table:style-name="ce2" table:number-columns-repeated="2"/>
+                    <table:table-cell table:number-columns-repeated="998"/>
+                </table:table-row>
+                <table:table-row table:style-name="ro12">
+                    <table:covered-table-cell table:number-columns-repeated="2"/>
+                    <table:table-cell table:style-name="ce201" office:value-type="string">
+                        <text:p>Initial Balance</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce201" office:value-type="string">
+                        <text:p>${Model.Debts.subMastersofpMap, index, DebtsDetailsModel.INITIALBALANCE}</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce205" table:number-columns-repeated="20"/>
+                    <table:table-cell table:style-name="ce2" table:number-columns-repeated="2"/>
+                    <table:table-cell table:number-columns-repeated="998"/>
+                </table:table-row>
+                <table:table-row table:style-name="ro12">
+                    <table:covered-table-cell table:number-columns-repeated="2"/>
+                    <table:table-cell table:style-name="ce201" office:value-type="string">
+                        <text:p>Minimum Payment</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce201" office:value-type="string">
+                        <text:p>${Model.Debts.subMastersofpMap, index, DebtsDetailsModel.MINIMUMPAYMENT}</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce205" table:number-columns-repeated="20"/>
+                    <table:table-cell table:style-name="ce2" table:number-columns-repeated="2"/>
+                    <table:table-cell table:number-columns-repeated="998"/>
+                </table:table-row>
+                <table:table-row table:style-name="ro12">
+                    <table:covered-table-cell table:number-columns-repeated="2"/>
+                    <table:table-cell table:style-name="ce201" office:value-type="string">
+                        <text:p>Current Payment</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce201" office:value-type="string">
+                        <text:p>${Model.Debts.subMastersofpMap, index, DebtsDetailsModel.AGREEDPAYMENTAMOUNT}</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce205" table:number-columns-repeated="20"/>
+                    <table:table-cell table:style-name="ce2" table:number-columns-repeated="2"/>
+                    <table:table-cell table:number-columns-repeated="998"/>
+                </table:table-row>
+                <table:table-row table:style-name="ro12">
+                    <table:covered-table-cell table:number-columns-repeated="2"/>
+                    <table:table-cell table:style-name="ce202" office:value-type="string">
+                        <text:p>Interest Rate</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce201" office:value-type="string">
+                        <text:p>${Model.Debts.subMastersofpMap, index, DebtsDetailsModel.INTERESTRATE}</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce205" table:number-columns-repeated="20"/>
+                    <table:table-cell table:style-name="ce2" table:number-columns-repeated="2"/>
+                    <table:table-cell table:number-columns-repeated="998"/>
+                </table:table-row>
+                <table:table-row table:style-name="ro12">
+                    <table:covered-table-cell table:number-columns-repeated="2"/>
+                    <table:table-cell table:style-name="ce202" office:value-type="string">
+                        <text:p>Current Frequency</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce202" office:value-type="string">
+                        <text:p>{currentfrequency}</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce205" table:number-columns-repeated="20"/>
+                    <table:table-cell table:style-name="ce2" table:number-columns-repeated="2"/>
+                    <table:table-cell table:number-columns-repeated="998"/>
+                </table:table-row>
+                <table:table-row table:style-name="ro12">
+                    <table:covered-table-cell table:number-columns-repeated="2"/>
+                    <table:table-cell table:style-name="ce202" office:value-type="string">
+                        <text:p>Contract Date</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce202" office:value-type="string">
+                        <text:p>${Model.Debts.subMastersofpMap, index, DebtsDetailsModel.STARTINGDATE}</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce205" table:number-columns-repeated="20"/>
+                    <table:table-cell table:style-name="ce2" table:number-columns-repeated="2"/>
+                    <table:table-cell table:number-columns-repeated="998"/>
+                </table:table-row>
+                <table:table-row table:style-name="ro12">
+                    <table:covered-table-cell table:number-columns-repeated="2"/>
+                    <table:table-cell table:style-name="ce202" office:value-type="string">
+                        <text:p>Last Payment Date</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce202" office:value-type="string">
+                        <text:p>${Model.Debts.subMastersofpMap, index, DebtsDetailsModel.LASTPAYMENTDATE}</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce205" table:number-columns-repeated="20"/>
+                    <table:table-cell table:style-name="ce2" table:number-columns-repeated="2"/>
+                    <table:table-cell table:number-columns-repeated="998"/>
+                </table:table-row>
+                <table:table-row table:style-name="ro12">
+                    <table:covered-table-cell table:number-columns-repeated="2"/>
+                    <table:table-cell table:style-name="ce202" office:value-type="string">
+                        <text:p>Current Balance</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce202" office:value-type="string">
+                        <text:p>${Model.Debts.subMastersofpMap, index, DebtsDetailsModel.CURRENTBALANCE}</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce205" table:number-columns-repeated="20"/>
+                    <table:table-cell table:style-name="ce2" table:number-columns-repeated="2"/>
+                    <table:table-cell table:number-columns-repeated="998"/>
+                </table:table-row>
+                <table:table-row table:style-name="ro12">
+                    <table:covered-table-cell table:number-columns-repeated="2"/>
+                    <table:table-cell table:style-name="ce202" office:value-type="string">
+                        <text:p>Payment Frequency</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce202" office:value-type="string">
+                        <text:p>Fortnightly</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce205" table:number-columns-repeated="20"/>
+                    <table:table-cell table:style-name="ce2" table:number-columns-repeated="2"/>
+                    <table:table-cell table:number-columns-repeated="998"/>
+                </table:table-row>
+                <table:table-row table:style-name="ro12">
+                    <table:covered-table-cell table:number-columns-repeated="2"/>
+                    <table:table-cell table:style-name="ce201" office:value-type="string">
+                        <text:p>Flags</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce201" office:value-type="string">
+                        <text:p>FV, GP</text:p>
+                    </table:table-cell>
+                    <table:table-cell table:style-name="ce205" table:number-columns-repeated="20"/>
+                    <table:table-cell table:style-name="ce2" table:number-columns-repeated="2"/>
+                    <table:table-cell table:number-columns-repeated="998"/>
+                </table:table-row>
+                <table:table-row table:style-name="ro12">
+                    <table:table-cell table:style-name="ce188" office:value-type="string" table:number-columns-spanned="4" table:number-rows-spanned="1">
+                        <text:p>Proposal: Make normal repayments and get help with missed repayments</text:p>
+                    </table:table-cell>
+                    <table:covered-table-cell table:number-columns-repeated="3"/>
+                    <table:table-cell table:style-name="ce205" table:number-columns-repeated="20"/>
+                    <table:table-cell table:style-name="ce2" table:number-columns-repeated="2"/>
+                    <table:table-cell table:number-columns-repeated="998"/>
+                </table:table-row>
+                <!-- END DEBT-->
                 <table:table-row table:style-name="ro12">
                     <table:table-cell table:style-name="ce186" office:value-type="string" table:number-columns-spanned="4" table:number-rows-spanned="1">
                         <text:p>${index+1} ${Model.Debts.subMastersofpMap, index, DebtsDetailsModel.DEBTFRIENDLYNAME}, <text:s/>
